@@ -1,3 +1,4 @@
+#Requires -Version 5.1
 $Users = @()
 $ExistingUsers = @((Get-LocalUser | Select-Object Name).Name)
 $key = (1)
