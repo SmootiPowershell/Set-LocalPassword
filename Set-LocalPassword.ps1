@@ -14,11 +14,11 @@
 param (
     [Parameter (
         Mandatory = $True
-        )
+        )]
     [string[]]$Users,
     [Parameter (
         Mandatory = $True
-        )
+        )]
     [string]$Password = Read-Host "Password: " -AsSecureString
     )
     
